@@ -8,17 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		1E1AF9CC29BA1F4F002F414A /* QurbaTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF9CB29BA1F4F002F414A /* QurbaTaskApp.swift */; };
-		1E1AF9CE29BA1F4F002F414A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF9CD29BA1F4F002F414A /* ContentView.swift */; };
 		1E1AF9D029BA1F50002F414A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1AF9CF29BA1F50002F414A /* Assets.xcassets */; };
 		1E1AF9D329BA1F50002F414A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1AF9D229BA1F50002F414A /* Preview Assets.xcassets */; };
+		1E1AF9DD29BA3EEA002F414A /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1AF9DC29BA3EEA002F414A /* SF-Pro-Display-Bold.otf */; };
+		1E1AF9E129BA3F5B002F414A /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E1AF9E029BA3F5B002F414A /* SF-Pro-Display-Black.otf */; };
+		1E1AF9E329BA5A20002F414A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF9E229BA5A20002F414A /* NetworkManager.swift */; };
+		1E1AF9E729BCD8C9002F414A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF9E629BCD8C9002F414A /* UserData.swift */; };
+		1E2684B129BF631300A80231 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2684B029BF631300A80231 /* UIApplication.swift */; };
+		1E81D63B29C1EFE600C574B8 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D63A29C1EFE600C574B8 /* SearchCoordinator.swift */; };
+		1E81D63F29C1F19D00C574B8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D63E29C1F19D00C574B8 /* SearchView.swift */; };
+		1E81D64129C1F26E00C574B8 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D64029C1F26E00C574B8 /* SearchViewModel.swift */; };
+		1E81D64329C1F58700C574B8 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D64229C1F58700C574B8 /* HomePageView.swift */; };
+		1E81D64529C1F58F00C574B8 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D64429C1F58F00C574B8 /* HomePageViewModel.swift */; };
+		1E81D64929C2446F00C574B8 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D64829C2446F00C574B8 /* HomeCoordinator.swift */; };
+		1E81D66529C37A9000C574B8 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81D66429C37A9000C574B8 /* ImageView.swift */; };
+		1E9191B529BE093D0043244A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9191B429BE093D0043244A /* MainView.swift */; };
+		1E9191B729BE13C30043244A /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9191B629BE13C30043244A /* PostData.swift */; };
+		1EB089C329C0CAF000235E99 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB089C229C0CAF000235E99 /* LoginCoordinator.swift */; };
+		1EB089C529C0CB1B00235E99 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB089C429C0CB1B00235E99 /* LoginViewModel.swift */; };
+		1EB089C729C0CB3100235E99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB089C629C0CB3100235E99 /* LoginView.swift */; };
+		1EB089C929C0CB5800235E99 /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB089C829C0CB5800235E99 /* CredentialsView.swift */; };
+		1EB089CB29C0CD5800235E99 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB089CA29C0CD5800235E99 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E1AF9C829BA1F4F002F414A /* QurbaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QurbaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1AF9CB29BA1F4F002F414A /* QurbaTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QurbaTaskApp.swift; sourceTree = "<group>"; };
-		1E1AF9CD29BA1F4F002F414A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E1AF9CF29BA1F50002F414A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1AF9D229BA1F50002F414A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E1AF9DA29BA3323002F414A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1E1AF9DC29BA3EEA002F414A /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		1E1AF9E029BA3F5B002F414A /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		1E1AF9E229BA5A20002F414A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1E1AF9E629BCD8C9002F414A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		1E2684B029BF631300A80231 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		1E81D63A29C1EFE600C574B8 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		1E81D63E29C1F19D00C574B8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1E81D64029C1F26E00C574B8 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		1E81D64229C1F58700C574B8 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		1E81D64429C1F58F00C574B8 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		1E81D64829C2446F00C574B8 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		1E81D66429C37A9000C574B8 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		1E9191B429BE093D0043244A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1E9191B629BE13C30043244A /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		1EB089C229C0CAF000235E99 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		1EB089C429C0CB1B00235E99 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1EB089C629C0CB3100235E99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1EB089C829C0CB5800235E99 /* CredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
+		1EB089CA29C0CD5800235E99 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +88,16 @@
 		1E1AF9CA29BA1F4F002F414A /* QurbaTask */ = {
 			isa = PBXGroup;
 			children = (
+				1EB089C129C0CAD800235E99 /* Coordinator */,
+				1EB089C029C0CAAA00235E99 /* ViewModel */,
+				1EB089BF29C0CAA400235E99 /* View */,
+				1EB089BE29C0CA9800235E99 /* Model */,
+				1E1AF9DA29BA3323002F414A /* Info.plist */,
 				1E1AF9CB29BA1F4F002F414A /* QurbaTaskApp.swift */,
-				1E1AF9CD29BA1F4F002F414A /* ContentView.swift */,
+				1E2684B229BF73D900A80231 /* Extensions */,
 				1E1AF9CF29BA1F50002F414A /* Assets.xcassets */,
+				1E1AF9DC29BA3EEA002F414A /* SF-Pro-Display-Bold.otf */,
+				1E1AF9E029BA3F5B002F414A /* SF-Pro-Display-Black.otf */,
 				1E1AF9D129BA1F50002F414A /* Preview Content */,
 			);
 			path = QurbaTask;
@@ -65,6 +109,58 @@
 				1E1AF9D229BA1F50002F414A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E2684B229BF73D900A80231 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E2684B029BF631300A80231 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EB089BE29C0CA9800235E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E1AF9E229BA5A20002F414A /* NetworkManager.swift */,
+				1E1AF9E629BCD8C9002F414A /* UserData.swift */,
+				1E9191B629BE13C30043244A /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EB089BF29C0CAA400235E99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EB089C629C0CB3100235E99 /* LoginView.swift */,
+				1EB089C829C0CB5800235E99 /* CredentialsView.swift */,
+				1E9191B429BE093D0043244A /* MainView.swift */,
+				1E81D63E29C1F19D00C574B8 /* SearchView.swift */,
+				1E81D64229C1F58700C574B8 /* HomePageView.swift */,
+				1E81D66429C37A9000C574B8 /* ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EB089C029C0CAAA00235E99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EB089C429C0CB1B00235E99 /* LoginViewModel.swift */,
+				1E81D64029C1F26E00C574B8 /* SearchViewModel.swift */,
+				1E81D64429C1F58F00C574B8 /* HomePageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EB089C129C0CAD800235E99 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1EB089C229C0CAF000235E99 /* LoginCoordinator.swift */,
+				1E81D63A29C1EFE600C574B8 /* SearchCoordinator.swift */,
+				1EB089CA29C0CD5800235E99 /* MainCoordinator.swift */,
+				1E81D64829C2446F00C574B8 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +223,8 @@
 			files = (
 				1E1AF9D329BA1F50002F414A /* Preview Assets.xcassets in Resources */,
 				1E1AF9D029BA1F50002F414A /* Assets.xcassets in Resources */,
+				1E1AF9E129BA3F5B002F414A /* SF-Pro-Display-Black.otf in Resources */,
+				1E1AF9DD29BA3EEA002F414A /* SF-Pro-Display-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +235,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1AF9CE29BA1F4F002F414A /* ContentView.swift in Sources */,
+				1E1AF9E329BA5A20002F414A /* NetworkManager.swift in Sources */,
+				1E81D66529C37A9000C574B8 /* ImageView.swift in Sources */,
+				1E81D64529C1F58F00C574B8 /* HomePageViewModel.swift in Sources */,
+				1E81D63B29C1EFE600C574B8 /* SearchCoordinator.swift in Sources */,
+				1E81D64129C1F26E00C574B8 /* SearchViewModel.swift in Sources */,
+				1EB089CB29C0CD5800235E99 /* MainCoordinator.swift in Sources */,
+				1E9191B529BE093D0043244A /* MainView.swift in Sources */,
+				1E81D64329C1F58700C574B8 /* HomePageView.swift in Sources */,
 				1E1AF9CC29BA1F4F002F414A /* QurbaTaskApp.swift in Sources */,
+				1EB089C329C0CAF000235E99 /* LoginCoordinator.swift in Sources */,
+				1E1AF9E729BCD8C9002F414A /* UserData.swift in Sources */,
+				1E9191B729BE13C30043244A /* PostData.swift in Sources */,
+				1EB089C529C0CB1B00235E99 /* LoginViewModel.swift in Sources */,
+				1EB089C729C0CB3100235E99 /* LoginView.swift in Sources */,
+				1EB089C929C0CB5800235E99 /* CredentialsView.swift in Sources */,
+				1E81D63F29C1F19D00C574B8 /* SearchView.swift in Sources */,
+				1E2684B129BF631300A80231 /* UIApplication.swift in Sources */,
+				1E81D64929C2446F00C574B8 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +384,7 @@
 				DEVELOPMENT_TEAM = YKAF3CHE8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QurbaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +395,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MahmoudMostafa.QurbaTask;
+				PRODUCT_BUNDLE_IDENTIFIER = "MahmoudMostafa.QurbaTask-MMVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,6 +414,7 @@
 				DEVELOPMENT_TEAM = YKAF3CHE8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QurbaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MahmoudMostafa.QurbaTask;
+				PRODUCT_BUNDLE_IDENTIFIER = "MahmoudMostafa.QurbaTask-MMVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
